@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:text="MENU"/>
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penjumlahan"
+        android:layout_below="@id/menu"
+        />
+
+    <Button
+        android:id="@+id/kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengurangan"
+        android:layout_below="@id/tambah"
+        />
+
+    <Button
+        android:id="@+id/kali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perkalian"
+        android:layout_below="@id/kurang"
+        />
+
+    <Button
+        android:id="@+id/bagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pembagian"
+        android:layout_below="@id/kali"
+        />
+
+
+
+</RelativeLayout>
